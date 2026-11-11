@@ -1,0 +1,26 @@
+{
+	"name": "x-pern",
+	"version": "1.0.0",
+	"private": true,
+	"description": "PostgreSQL, Express, React, Node.js (PERN) stack ",
+	"keywords": [],
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "node --env-file=.env --watch index.js",
+		"start": "node index.js",
+		"lint": "npx biome check --write"
+	},
+	"dependencies": {
+		"cors": "2.8.6",
+		"dotenv": "18.0.9",
+		"express": "5.3.0",
+		"pg": "8.23.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.6.6",
+		"nodemon": "3.1.14"
+	}
+}
